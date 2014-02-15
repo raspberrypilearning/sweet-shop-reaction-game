@@ -19,7 +19,30 @@ This guide assumes that you have the following:
 - A cardboard box to put your Raspberry Pi and cables into
 - Some colouring pens/pencils to decorate your box.
 
-## Step 1: Wire up your sweet button
+![alt text](image.png "Components")
+
+## Step 0: Set up your Raspberry Pi
+
+[See the Raspberry Pi Quick Start Guide here](http://www.raspberrypi.org/quick-start-guide) 
+
+
+## Step 1: Create a Sweet Shop Reaction Game
+
+Many people enjoy testing their reaction time against a clock. Let's create a reaction sytle game using ScratchGPIO that later on we can connect a squiggy sweet button to.
+
+**Activity Checklist**
+
+1. On the desktop of your Raspberry Pi you should see a **ScratchGPIO** icon. To open it, double click the icon. It is very important that you use this version of Scratch and not the default application. 
+
+![alt text](scratch-interface.png "ScratchGPIO interface")
+
+2. Delete the Scratch Cat Sprite by **right clicking** on it with your mouse and selecting **delete**.
+
+3. Click on the paint new sprite icon above the sprites palette and draw face with a mouth that is closed using the paint editor. When you are happy with your sprite click OK.
+
+4. Next click on the Costumes tab and make a copy of 
+
+## Step 2: Wire up your sweet button
 
 You will need to connect a sweet or piece of candy to your Raspberry Pi to act as an input device and test it.
 
@@ -41,7 +64,5 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
 
-7. Set up the rest of your Raspberry Pi with an SD card with the latest Raspbian image installed via NOOBS, a keyboard, mouse, a HDMI cable to a monitor or TV, a connection to the internet, and a speaker so that you can hear your Jelly Baby screaming. [See the Raspberry Pi Quick Start Guide here](http://www.raspberrypi.org/quick-start-guide)    
 
-8. Finally plug in a Micro USB power supply to start your Pi and log in. The default login for Raspberry Pi is: login `pi` and password `raspberry` 
     
