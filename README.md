@@ -34,11 +34,13 @@ This guide assumes that you have the following:
 
 1. On the desktop of your Raspberry Pi you should see a **ScratchGPIO** icon. To open it, double click the icon. It is very important that you use this version of Scratch and not the default application. 
 
-![alt text](scratch-interface.png "ScratchGPIO interface")
+    Click **Ok** to enable remote sensor connections.
+    
+    ![alt text](scratch-interface.png "ScratchGPIO interface")
 
 2. Delete the Scratch Cat Sprite by **right clicking** on it with your mouse and selecting **delete**.
 
-3. Click on the paint new sprite icon above the sprites palette and draw face with a mouth that is closed using the paint editor. When you are happy with your sprite click OK.
+3. Click on the **paint new sprite** icon above the sprites palette and draw face with a mouth that is closed using the paint editor. When you are happy with your sprite click **OK**.
 
 4. Next with your newly painted sprite selected, click on the **Costumes tab**. Rename the costume to **face1** by clciking on the sprite name about the edit button and typing the new name. 
 
@@ -63,7 +65,7 @@ This guide assumes that you have the following:
 13. Finally click on the **Green Flag** in the top right hand of the screen and you sould see your sprite face open and close it's mouth. 
 
 ## Step 2: Design a Sweet Shop Background
-To make the game a little more interesting let's set the scene by changing the background from white to a picture of a sweet shop.
+To make the game a little more interesting let's set the scene by changing the background from white to a picture of a sweets in a shop.
 
 **Activity Checklist**
 
@@ -72,7 +74,21 @@ To make the game a little more interesting let's set the scene by changing the b
 
 ## Step 3: Program the Sweet Shop Reaction Game Machanics
 
-Many people enjoy testing their reaction time against a clock. Let's create a reaction sytle game using ScratchGPIO that later on we can connect a squiggy sweet button to.
+Many people enjoy testing their reaction time against a clock. Let's create a reaction sytle game using ScratchGPIO that later on we can connect a squiggy sweet button to. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds. 
+
+
+**Ativity Checklist**
+
+You will need to create two variables for this game, one to count the button presses and one to count time. 
+
+1. Click on variables from the blocks palette and select **make a variable**. Name the first variable **counter** and click **ok**
+
+2. Repeat the first step to create another vairable named **timer**.
+
+3. 
+
+
+
 
 ## Step 4: Wire up your sweet button
 
