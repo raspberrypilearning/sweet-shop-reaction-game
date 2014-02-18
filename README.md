@@ -157,7 +157,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
 4. Insert the paper clips into a soft sweet so that they are close to each other but not touching. 
 
-    ![alt text](GPIO.png "Raspberry Pi GPIO header pins")
+    ![alt text](gpio.png "Raspberry Pi GPIO header pins")
     
     Raspberry Pi GPIO header pins. The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
 
