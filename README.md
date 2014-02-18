@@ -40,7 +40,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
     Click **Ok** to enable remote sensor connections.
     
-    ![alt text](scratch-interface.png "ScratchGPIO interface")
+    ![alt text](scratchgpio.png "ScratchGPIO icon")
 
 2. Delete the Scratch Cat Sprite by **right clicking** on it with your mouse and selecting **delete**.
 
