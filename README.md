@@ -26,7 +26,7 @@ This guide assumes that you have the following:
 
 You will need to set up your Raspberry Pi to take part in this activity. [See the Raspberry Pi Quick Start Guide here](http://www.raspberrypi.org/quick-start-guide) to get you up and running.
 
-You will be creating your program using ScratchGPIO rather than Scratch. [To download and install ScratchGPIO see here](http://cymplecy.github.io/scratch_gpio/) It is very similar in almost all aspects. If you are not familiar with the scratch interface then [see the Scratch Raspberry Pi Manual here - Page 8](http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf) We need to use ScratchGPIO so that you can make a button to control your game using the General Purpose Input Output pins on the Raspberry Pi.
+You will be creating your program using ScratchGPIO rather than Scratch. [To download and install ScratchGPIO see here](http://cymplecy.github.io/scratch_gpio/). It is very similar in almost all aspects. If you are not familiar with the scratch interface then [see the Scratch Raspberry Pi Manual here - Page 8](http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf). We need to use ScratchGPIO so that you can make a button to control your game using the General Purpose Input Output pins on the Raspberry Pi.
 
 
 ## Step 1: Create a Sweet Munching Sprite
@@ -46,7 +46,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 3. Click on the **paint new sprite** icon above the sprites palette and draw face with a mouth that is closed using the paint editor. When you are happy with your sprite click **OK**.
 
-4. Next with your newly painted sprite selected, click on the **Costumes tab**. Rename the costume to **face1** by clciking on the sprite name about the edit button and typing the new name. 
+4. Next with your newly painted sprite selected, click on the **Costumes tab**. Rename the costume to **face1** by clicking on the sprite name followed by the edit button and typing the new name. 
 
 5. Click the **copy** button to make an exact copy of the face. You will now have two identical faces on the costumes tab called face1 and face2.
 
@@ -64,7 +64,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 11. Add the control block `wait 1 secs` and the look block `next costume` inside the forever loop.
 
-12.	Change the time from 1 second to half a second. How could you represent time as a value? If 1 is a whole, what would half of 1 be?
+12. Change the time from 1 second to half a second. How could you represent time as a value? If 1 is a whole, what would half of 1 be?
 
 13. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **Ok**.
 
@@ -104,11 +104,11 @@ You will need to create two variables for this game, one to count the button pre
 
 2. Repeat the first step to create another vairable named **timer**. 
 
-3. Click ont he control blocks plaette and drag the `When green flag clicked` block on to the scripts tab of your face sprite.
+3. Click on the control blocks plaette and drag the `When green flag clicked` block on to the scripts tab of your face sprite.
 
 4. Next add the variable block `set counter to 0` so that at the start of each game the counter is reset to 0 ready to test the players button pushing skills.
 
-5. Add a `forever` looping block and connect it then place an `if` block inside the `forever` block.
+5. Add a `forever` looping block, connect it and then place an `if` block inside the `forever` block.
 
 6. There is a small blank space on the `if` block, this is so that you can add other blocks. In this space you need to first add the **operator** block ` = `.
 
@@ -118,13 +118,13 @@ You will need to create two variables for this game, one to count the button pre
 
 	![alt text](button-script.png "Button Script")
 
-To set a time limit for the game the counts upwards, you need to add a futher two scripts:
+To set a time limit for the game the counts upwards, you need to add two futher scripts:
 
 1. Add `when green flag clicked` block to the scripts and connect the sensing block `reset timer` to it.
 
 2. Underneath connect a `forever` looping control block.
 
-3. Inside the loop add the variable block `set control to 0` and using the drop down menu on the block change **control**to **timer** so that the block reads `set timer to 0`.
+3. Inside the loop add the variable block `set control to 0` and using the drop down menu on the block change **control** to **timer** so that the block reads `set timer to 0`.
 
 4. Replace the value `0` in the `set timer to 0` block with the operator block `round`.
 
