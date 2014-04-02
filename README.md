@@ -65,13 +65,13 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 13. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **Ok**.
 
-14. Finally click on the **Green Flag** in the top right hand of the screen and you sould see your sprite face open and close it's mouth.
+14. Finally click on the **Green Flag** in the top right hand of the screen and you 03 see your sprite face open and close it's mouth.
 
 	![alt text](face-script.png "Face Script")
 
 ## Step 2: Design a Sweet Shop Background
 
-To make the game a little more interesting let's set the scene by changing the background from the deafult white to something a little more interesting, like a graidant colour or of sweets in a shop!
+To make the game a little more interesting let's set the scene by changing the background from the default white to something a little more interesting, like a gradiant colour or of sweets in a shop!
 
 **Activity Checklist**
 
@@ -87,9 +87,9 @@ To make the game a little more interesting let's set the scene by changing the b
 
 4. When you are happy with your background, click on **sprite1** in the Sprites palette ready to program the reaction game mechanics in the next step.
 
-## Step 3: Program the Sweet Shop Reaction Game Machanics
+## Step 3: Program the Sweet Shop Reaction Game Mechanics
 
-Many people enjoy testing their reaction time against a clock. Let's create a reaction sytle game using ScratchGPIO that later on we can connect a squiggy sweet button to. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds.
+Many people enjoy testing their reaction time against a clock. Let's create a reaction style game using ScratchGPIO that later on we can connect a squiggy sweet button to. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds.
 
 **Activity Checklist:**
 
@@ -97,9 +97,9 @@ You will need to create two variables for this game, one to count the button pre
 
 1. Click on variables from the blocks palette and select `make a variable`. Name the first variable **counter** and click **ok**
 
-2. Repeat the first step to create another vairable named **timer**.
+2. Repeat the first step to create another variable named **timer**.
 
-3. Click on the control blocks plaette and drag the `When green flag clicked` block on to the scripts tab of your face sprite.
+3. Click on the control blocks palette and drag the `When green flag clicked` block on to the scripts tab of your face sprite.
 
 4. Next add the variable block `set counter to 0` so that at the start of each game the counter is reset to 0 ready to test the players button pushing skills.
 
@@ -113,7 +113,7 @@ You will need to create two variables for this game, one to count the button pre
 
 	![alt text](button-script.png "Button Script")
 
-To set a time limit for the game the counts upwards, you need to add two futher scripts:
+To set a time limit for the game the counts upwards, you need to add two further scripts:
 
 1. Add `when green flag clicked` block to the scripts and connect the sensing block `reset timer` to it.
 
@@ -161,7 +161,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
 
-Your sweet input device is not a real button and will not give acurate results for your game. It is just a bit of fun. If you want to construct a real button for your game using a breadboard, switch and resistor then follow these instructons:
+Your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. If you want to construct a real button for your game using a breadboard, switch and resistor then follow these instructions:
 
 ## Step 5: Put it all in a box!
 
