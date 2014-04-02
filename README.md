@@ -2,7 +2,7 @@
 
 **Introduction**
 
-Some Penny Sweets or Candy can make great input devices for a game using a Raspberry Pi. You will learn how to turn a squiggy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times in 10 seconds a player can squeeze your sweet input device!
+Some Penny Sweets or Candy can make great input devices for a game using a Raspberry Pi. You will learn how to turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times in 10 seconds a player can squeeze your sweet input device!
 
 **Requirements**
 
@@ -29,7 +29,7 @@ You will be creating your program using ScratchGPIO rather than Scratch. [To dow
 
 ## Step 1: Create a Sweet Munching Sprite
 
-The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO and animate it to open and close it's mouth.
+The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO and animate it to open and close its mouth.
 
 **Activity Checklist**
 
@@ -41,7 +41,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 2. Delete the Scratch Cat Sprite by **right clicking** on it with your mouse and selecting **delete**.
 
-3. Click on the **paint new sprite** icon above the sprites palette and draw face with a mouth that is closed using the paint editor. When you are happy with your sprite click **OK**.
+3. Click on the **paint new sprite** icon above the sprites palette and draw a face with a mouth that is closed using the paint editor. When you are happy with your sprite click **OK**.
 
 4. Next with your newly painted sprite selected, click on the **Costumes tab**. Rename the costume to **face1** by clicking on the sprite name followed by the edit button and typing the new name.
 
@@ -161,7 +161,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
 
-Your sweet input device is not a real button and will not give acurate results for your game. It is just a bit of fun. If you want to construct a real button for your game using a breadboard, switch and resistor then follow these instructons:
+Your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. If you want to construct a real button for your game using a breadboard, switch and resistor then follow these instructons:
 
 ## Step 5: Put it all in a box!
 
