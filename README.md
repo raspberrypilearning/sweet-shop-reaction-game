@@ -20,7 +20,6 @@ This guide assumes that you have the following:
 - A cardboard box to put your Raspberry Pi and cables into
 - Some colouring pens/pencils to decorate your box.
 
-![](image.png "Components")
 
 ## Step 0: Set up your Raspberry Pi
 
