@@ -4,28 +4,19 @@
 
 Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. You will learn how to turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times in 10 seconds a player can squeeze your sweet input device!
 
-##Requirements
-
-This guide assumes that you have the following:
-
-- A Raspberry Pi
-- Connected to a monitor or TV
-- A keyboard and mouse
-- A speaker or headphones
-- An SD card with the latest version of Raspbian installed via NOOBS
-- ScratchGPIO downloaded and installed. [Use this guide to learn how to do this](http://cymplecy.github.io/scratch_gpio/)
-- Two female to female jumper wires
-- Two metal paper clips or two dress pins
-- Some squidgy sweets/candy like marshmallows or jelly babies
-- A cardboard box to put your Raspberry Pi and cables into
-- Some colouring pens/pencils to decorate your box.
-
 
 ## Step 0: Set up your Raspberry Pi
 
 You will need to set up your Raspberry Pi to take part in this activity. [See the Raspberry Pi Quick Start Guide here](http://www.raspberrypi.org/quick-start-guide) to get you up and running.
 
 You will be creating your program using ScratchGPIO rather than Scratch. [To download and install ScratchGPIO see here](http://cymplecy.github.io/scratch_gpio/). It is very similar in almost all aspects. If you are not familiar with the Scratch interface then [see the Scratch Raspberry Pi Manual here - Page 8](http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf). We need to use ScratchGPIO so that you can make a button to control your game using the General Purpose Input Output pins on the Raspberry Pi.
+
+You will also require the following components to make a sweet button for your Raspberry Pi:
+- Two female to female jumper wires
+- Two metal paper clips or two dress pins
+- Some squidgy sweets/candy like marshmallows or jelly babies
+- A cardboard box to put your Raspberry Pi and cables into
+- Some colouring pens/pencils to decorate your box.
 
 ## Step 1: Create a sweet munching sprite
 
