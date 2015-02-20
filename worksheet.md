@@ -1,16 +1,3 @@
-## Step 0: Set up your Raspberry Pi
-
-You will need to set up your Raspberry Pi to take part in this activity. [See the Raspberry Pi Quick Start Guide here](http://www.raspberrypi.org/quick-start-guide) to get you up and running.
-
-You will be creating your program using ScratchGPIO rather than Scratch. [To download and install ScratchGPIO see here](http://cymplecy.github.io/scratch_gpio/). It is very similar in almost all aspects. If you are not familiar with the Scratch interface then [see the Scratch Raspberry Pi Manual here - Page 8](http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf). We need to use ScratchGPIO so that you can make a button to control your game using the General Purpose Input Output pins on the Raspberry Pi.
-
-You will also require the following components to make a sweet button for your Raspberry Pi:
-- Two female to female jumper wires
-- Two metal paper clips or two dress pins
-- Some squidgy sweets/candy like marshmallows or jelly babies
-- A cardboard box to put your Raspberry Pi and cables into
-- Some colouring pens/pencils to decorate your box.
-
 ## Step 1: Create a sweet munching sprite
 
 The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO, and animate it to open and close its mouth.
@@ -137,7 +124,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
 
-Your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. If you want to construct a real button for your game using a breadboard, switch and resistor then follow these instructions:
+Your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
 
 ## Step 5: Put it all in a box!
 
@@ -145,4 +132,5 @@ Congratulations on making your Sweet Shop Reaction Game. If you have time why no
 
 ## What's next?
 - Can you add user input to your scratch program to find out the name of the player?
+- Can you connect a real physical button instead of a sweet?
 - Can you write a similar program using a text based programing language like Python?
