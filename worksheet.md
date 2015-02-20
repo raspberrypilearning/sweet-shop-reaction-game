@@ -19,7 +19,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
     Click **Ok** to enable remote sensor connections.
 
-    ![](scratchgpio.png "ScratchGPIO icon")
+    ![](images/scratchgpio.png "ScratchGPIO icon")
 
 1. Delete the Scratch Cat sprite by **right-clicking** on it with your mouse and selecting **delete**.
 
@@ -49,7 +49,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Finally, click on the **Green Flag** in the top right hand of the screen and you sould see your sprite face open and close its mouth.
 
-	![](face-script.png "Face Script")
+	![](images/face-script.png "Face Script")
 
 ## Step 2: Design a sweet shop background
 
@@ -89,7 +89,7 @@ You will need to create two variables for this game: one to count the button pre
 
 1. Inside the `if` block add the variable block `change counter by 1` and `play drum 48 for 0.2 beats`. You can select any drum noise that you like from the drop down menu.
 
-	![](button-script.png "Button Script")
+	![](images/button-script.png "Button Script")
 
 To set a time limit for the game that counts upwards, you need to add two further scripts:
 
@@ -103,7 +103,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 1. Then add the sensing block `timer` inside the space on the `round' block. The completed block should look like:
 
-	![](timer-script.png "Timer Script")
+	![](images/timer-script.png "Timer Script")
 
 1. Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
 
@@ -113,7 +113,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 1. Finally, save your game by clicking on the save icon at the top of the screen.
 
-	![](timer-script2.png "Set Timer Script")
+	![](images/timer-script2.png "Set Timer Script")
 
 ## Step 4: Wire up your sweet button
 
@@ -127,7 +127,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
 1. Insert the paper clips into a soft sweet so that they are close to each other but not touching.
 
-    ![](gpio.png "Raspberry Pi GPIO header pins")
+    ![](images/gpio.png "Raspberry Pi GPIO header pins")
 
     Raspberry Pi GPIO header pins. The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
 
