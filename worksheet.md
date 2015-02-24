@@ -1,4 +1,8 @@
-## Step 1: Create a sweet munching sprite
+# Sweet Shop Reaction Game
+
+Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. Let's turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times in 10 seconds a player can squeeze your sweet input device!
+
+## Create a sweet munching sprite
 
 The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO, and animate it to open and close its mouth.
 
@@ -38,7 +42,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 	![](images/face-script.png "Face Script")
 
-## Step 2: Design a sweet shop background
+## Design a sweet shop background
 
 To make the game a little more interesting, let's set the scene by changing the background from the default white to something a little more exciting, like a gradient colour or sweets in a shop!
 
@@ -54,7 +58,7 @@ To make the game a little more interesting, let's set the scene by changing the 
 
 1. When you are happy with your background, click on **sprite1** in the sprites palette, ready to program the reaction game mechanics in the next step.
 
-## Step 3: Program the sweet shop reaction game mechanics
+## Program the sweet shop reaction game mechanics
 
 Many people enjoy testing their reaction time against a clock. Let's create a reaction game using ScratchGPIO that we can connect a squidgy sweet button to later on. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds.
 
@@ -102,7 +106,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 	![](images/timer-script2.png "Set Timer Script")
 
-## Step 4: Wire up your sweet button
+## Wire up your sweet button
 
 You will need to connect a sweet or piece of candy to your Raspberry Pi to act as an input device and test it.
 
@@ -126,7 +130,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
 Your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
 
-## Step 5: Put it all in a box!
+## Put it all in a box!
 
 Congratulations on making your Sweet Shop Reaction Game. If you have time why not make and decorate a box to put the Raspberry Pi and cables into?
 
