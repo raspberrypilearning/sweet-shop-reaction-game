@@ -1,5 +1,19 @@
-# Software Installation
+## Software Installation
 
-You will be creating your program using ScratchGPIO rather than Scratch which comes pre-installed as part of Raspbian. [To download and install ScratchGPIO see here](http://cymplecy.github.io/scratch_gpio/). It is very similar in almost all aspects. 
+You'll need to be online to install packages.
 
-If you are not familiar with the Scratch interface then [see the Scratch Raspberry Pi Manual here - Page 8](http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf). We need to use ScratchGPIO so that you can make a button to control your game using the General Purpose Input Output pins on the Raspberry Pi.
+First update and upgrade your system. Enter the following commands in to the terminal:
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+Now install Scratch GPIO with the following commands:
+
+```bash
+wget http://goo.gl/xzJlz7 -O isgh6.sh
+sudo bash isgh6.sh
+```
+
+and you'll find the ScratchGPIO icon on the desktop.
