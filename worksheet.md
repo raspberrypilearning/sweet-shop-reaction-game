@@ -120,7 +120,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     ![](images/gpio.png "Raspberry Pi GPIO header pins")
 
-    Raspberry Pi GPIO header pins. The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
+   The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
 
 1. Take the other end of one of the jumper cables (not connected to a paper clip) and push onto pin 3 of the General Purpose Input-Output (GPIO) header, which is connected to one of the GPIO channels.
 
@@ -128,7 +128,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
 
-Your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
+Remember that your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
 
 ## Put it all in a box!
 
