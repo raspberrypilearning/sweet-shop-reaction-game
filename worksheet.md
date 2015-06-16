@@ -60,9 +60,9 @@ To make the game a little more interesting, let's set the scene by changing the 
 
 ## Program the sweet shop reaction game mechanics
 
-Many people enjoy testing their reaction time against a clock. Let's create a reaction game using ScratchGPIO that we can connect a squidgy sweet button to later on. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds.
+Many people enjoy testing their reaction time against a clock. Let's create a reaction game using ScratchGPIO that we can connect to a squidgy sweet button later on. The object of the game is to see how many times you can squeeze the sweet button in ten seconds.
 
-You will need to create two variables for this game: one to count the button presses and one to count time.
+You will need to create two variables for this game: one to count the button presses, and one to count time.
 
 1. Click on **variables** from the blocks palette and select `make a variable`. Name the first variable **counter** and click **ok**.
 
@@ -98,7 +98,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 1. Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
 
-1. Add the operators block `=` to the space in the `wait until` block. In the left hand space add the variable block `timer` and on the right hand side type a value to represent time. If you want your game to last for 10 seconds then type `10`.
+1. Add the operators block `=` to the space in the `wait until` block. In the left hand space add the variable block `timer` and on the right hand side type a value to represent time. If you want your game to last for ten seconds then type `10`.
 
 1. Connect a `stop all` control block to the end of this script.
 
