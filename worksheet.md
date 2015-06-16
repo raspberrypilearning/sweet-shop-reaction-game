@@ -1,6 +1,6 @@
 # Sweet Shop Reaction Game
 
-Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. Let's turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times in 10 seconds a player can squeeze your sweet input device!
+Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. Let's turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times seconds a player can squeeze your sweet input device in ten seconds!
 
 ## Create a sweet munching sprite
 
@@ -132,7 +132,7 @@ Your sweet input device is not a real button and will not give accurate results 
 
 ## Put it all in a box!
 
-Congratulations on making your Sweet Shop Reaction Game. If you have time why not make and decorate a box to put the Raspberry Pi and cables into?
+Congratulations on making your Sweet Shop Reaction Game. If you have time, why not make and decorate a box to put the Raspberry Pi and cables into?
 
 ## What's next?
 - Can you add user input to your scratch program to find out the name of the player?
