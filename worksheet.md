@@ -20,7 +20,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Click the **copy** button to make an exact copy of the face. You will now have two identical faces on the costumes tab called face1 and face2.
 
-1. The next step is to edit face2 to change the mouth from closed to open. With face 2 selected, click on the **edit** button to open the paint editor.
+1. The next step is to edit face2 to change the mouth from closed to open. With face2 selected, click on the **edit** button to open the paint editor.
 
 1. Erase the mouth using a paintbrush tool or an erase tool and then replace it with an open mouth. When you are happy with your sprite costume click **Ok**.
 
@@ -30,11 +30,11 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Then add the control block `forever` underneath the look block.
 
-    *The `forever` block is a loop that will run the same sequence of blocks inside it over and over again.*
+   The `forever` block is a loop that will run the same sequence of blocks inside it over and over again.
 
 1. Add the control block `wait 1 secs` and the look block `next costume` inside the forever loop.
 
-1. Change the time from 1 second to half a second. How could you represent time as a value? If 1 is a whole, what would half of 1 be?
+1. Change the time from one second to half a second. How could you represent time as a value? If one is a whole, what would half of one be?
 
 1. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **Ok**.
 
@@ -50,7 +50,7 @@ To make the game a little more interesting, let's set the scene by changing the 
 
 1. Next, locate the **backgrounds** tab and select it with your mouse.
 
-1. If you want to draw your own background, click on the **edit** button underneath the **background1** label; this will open the paint editor. Use the drawing tools to make a more interesting and colourful background.
+1. If you want to draw your own background, click on the **edit** button underneath the **background1** label: this will open the paint editor. Use the drawing tools to make a more interesting and colourful background.
 
 	**Or**
 
