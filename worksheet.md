@@ -130,7 +130,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
 Remember that your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
 
-## Put it all in a box!
+## Put it all in a box
 
 Congratulations on making your Sweet Shop Reaction Game! If you have time, why not make and decorate a box to put the Raspberry Pi and cables into?
 
