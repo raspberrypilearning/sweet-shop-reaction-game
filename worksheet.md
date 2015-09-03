@@ -1,6 +1,6 @@
 # Sweet Shop Reaction Game
 
-Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. Let's turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times in 10 seconds a player can squeeze your sweet input device!
+Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. Let's turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times seconds a player can squeeze your sweet input device in ten seconds!
 
 ## Create a sweet munching sprite
 
@@ -20,7 +20,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Click the **copy** button to make an exact copy of the face. You will now have two identical faces on the costumes tab called face1 and face2.
 
-1. The next step is to edit face2 to change the mouth from closed to open. With face 2 selected, click on the **edit** button to open the paint editor.
+1. The next step is to edit face2 to change the mouth from closed to open. With face2 selected, click on the **edit** button to open the paint editor.
 
 1. Erase the mouth using a paintbrush tool or an erase tool and then replace it with an open mouth. When you are happy with your sprite costume click **Ok**.
 
@@ -30,11 +30,11 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Then add the control block `forever` underneath the look block.
 
-    *The `forever` block is a loop that will run the same sequence of blocks inside it over and over again.*
+   The `forever` block is a loop that will run the same sequence of blocks inside it over and over again.
 
 1. Add the control block `wait 1 secs` and the look block `next costume` inside the forever loop.
 
-1. Change the time from 1 second to half a second. How could you represent time as a value? If 1 is a whole, what would half of 1 be?
+1. Change the time from one second to half a second. How could you represent time as a value? If one is a whole, what would half of one be?
 
 1. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **Ok**.
 
@@ -50,7 +50,7 @@ To make the game a little more interesting, let's set the scene by changing the 
 
 1. Next, locate the **backgrounds** tab and select it with your mouse.
 
-1. If you want to draw your own background, click on the **edit** button underneath the **background1** label; this will open the paint editor. Use the drawing tools to make a more interesting and colourful background.
+1. If you want to draw your own background, click on the **edit** button underneath the **background1** label: this will open the paint editor. Use the drawing tools to make a more interesting and colourful background.
 
 	**Or**
 
@@ -60,9 +60,9 @@ To make the game a little more interesting, let's set the scene by changing the 
 
 ## Program the sweet shop reaction game mechanics
 
-Many people enjoy testing their reaction time against a clock. Let's create a reaction game using ScratchGPIO that we can connect a squidgy sweet button to later on. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds.
+Many people enjoy testing their reaction time against a clock. Let's create a reaction game using ScratchGPIO that we can connect to a squidgy sweet button later on. The object of the game is to see how many times you can squeeze the sweet button in ten seconds.
 
-You will need to create two variables for this game: one to count the button presses and one to count time.
+You will need to create two variables for this game: one to count the button presses, and one to count time.
 
 1. Click on **variables** from the blocks palette and select `make a variable`. Name the first variable **counter** and click **ok**.
 
@@ -98,7 +98,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 1. Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
 
-1. Add the operators block `=` to the space in the `wait until` block. In the left hand space add the variable block `timer` and on the right hand side type a value to represent time. If you want your game to last for 10 seconds then type `10`.
+1. Add the operators block `=` to the space in the `wait until` block. In the left hand space add the variable block `timer` and on the right hand side type a value to represent time. If you want your game to last for ten seconds then type `10`.
 
 1. Connect a `stop all` control block to the end of this script.
 
@@ -120,7 +120,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     ![](images/gpio.png "Raspberry Pi GPIO header pins")
 
-    Raspberry Pi GPIO header pins. The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
+   The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
 
 1. Take the other end of one of the jumper cables (not connected to a paper clip) and push onto pin 3 of the General Purpose Input-Output (GPIO) header, which is connected to one of the GPIO channels.
 
@@ -128,13 +128,13 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
 
-Your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
+Remember that your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
 
-## Put it all in a box!
+## Put it all in a box
 
-Congratulations on making your Sweet Shop Reaction Game. If you have time why not make and decorate a box to put the Raspberry Pi and cables into?
+Congratulations on making your Sweet Shop Reaction Game! If you have time, why not make and decorate a box to put the Raspberry Pi and cables into?
 
 ## What's next?
 - Can you add user input to your scratch program to find out the name of the player?
 - Can you connect a real physical button instead of a sweet?
-- Can you write a similar program using a text based programing language like Python?
+- Can you write a similar program using a text-based programing language like Python?
