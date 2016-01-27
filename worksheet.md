@@ -98,7 +98,7 @@ To set a time limit that counts upwards for the game, you need to add two furthe
 
 1. Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
 
-1. Add the operators block `=` to the space in the `wait until` block. In the left hand space add the variable block `timer` and on the right hand side type a value to represent time. If you want your game to last for ten seconds then type `10`.
+1. Add the operators block `=` to the space in the `wait until` block. In the left hand space, add the variable block `timer`. On the right hand side, type a value to represent time. If you want your game to last for ten seconds, type `10`.
 
 1. Connect a `stop all` control block to the end of this script.
 
