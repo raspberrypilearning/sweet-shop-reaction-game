@@ -120,11 +120,11 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
     ![](images/raspio-ports.jpg "Raspberry Pi GPIO header pins")
 
-   The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
+   The diagram above the pins shows the pin numbers. You will be using pin 3 and a `GND` pin.
 
 1. Take the other end of one of the jumper cables (not connected to a paper clip) and push onto pin 3 of the General Purpose Input-Output (GPIO) header, which is connected to one of the GPIO channels.
 
-1. Take the end of the other jumper cable and push onto pin 25 of the GPIO header, which is connected to ground.
+1. Take the end of the other jumper cable and push onto a pin labelled 'GND' which is connected to ground.
 
     **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
 
