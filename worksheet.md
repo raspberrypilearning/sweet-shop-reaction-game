@@ -14,7 +14,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Delete the Scratch Cat sprite by **right-clicking** on it with your mouse and selecting **delete**.
 
-1. Click on the **paint new sprite** icon above the sprites palette, and draw a face with a mouth that is closed using the paint editor. When you are happy with your sprite click **OK**.
+1. Click on the **paint new sprite** icon above the sprites palette, and draw a face with a closed mouth using the paint editor. When you are happy with your sprite click **OK**.
 
 1. Next, with your newly painted sprite selected, click on the **Costumes tab**. Rename the costume to **face1** by clicking on the sprite name followed by the edit button, and typing the new name.
 
