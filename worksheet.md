@@ -38,7 +38,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **Ok**.
 
-1. Finally, click on the **Green Flag** in the top right hand of the screen and you sould see your sprite face open and close its mouth.
+1. Finally, click on the **Green Flag** in the top right hand of the screen and you should see your sprite face open and close its mouth.
 
 	![](images/face-script.png "Face Script")
 
