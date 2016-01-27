@@ -4,13 +4,13 @@ Some penny sweets or candy can make great input devices for a game using a Raspb
 
 ## Create a sweet munching sprite
 
-The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO, and animate it to open and close its mouth.
+The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in Scratch, and animate it to open and close its mouth.
 
-1. On the desktop of your Raspberry Pi you should see a **ScratchGPIO** icon. To open it, double-click the icon. It is very important that you use this version of Scratch and not the default application.
+1. Open Scratch by clicking on Menu, Programming and Scratch. It is very important that you use this version of Scratch on Raspberry Pi to be able to control the GPIO pins.
 
-    Click **Ok** to enable remote sensor connections.
+1. Once Scratch is running choose `Start GPIO Server` from the Edit menu. 
 
-    ![](images/scratchgpio.png "ScratchGPIO icon")
+1. If asked, click **Ok** to enable remote sensor connections.
 
 1. Delete the Scratch Cat sprite by **right-clicking** on it with your mouse and selecting **delete**.
 
