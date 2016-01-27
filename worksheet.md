@@ -74,7 +74,7 @@ You will need to create two variables for this game: one to count the button pre
 
 1. Add a `forever` looping block, connect it and then place an `if` block inside the `forever` block.
 
-1. There is a small blank space on the `if` block; this is so that you can add other blocks. In this space you need to first add the **operator** block ` = `.
+1. There is a small blank space on the `if` block; this is so that you can add other blocks. In this space, you first need to add the **operator** block ` = `.
 
 1. Blocks can be added on either side of the `=` block. On the left hand side add the sensing block `slider sensor value` and on the right hand side type the value `0`. Using the drop-down menu change **slider** to **pin3**.
 
@@ -82,7 +82,7 @@ You will need to create two variables for this game: one to count the button pre
 
 	![](images/button-script.png "Button Script")
 
-To set a time limit for the game that counts upwards, you need to add two further scripts:
+To set a time limit that counts upwards for the game, you need to add two further scripts:
 
 1. Add `when green flag clicked` block to the scripts and connect the sensing block `reset timer` to it.
 
@@ -110,7 +110,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 You will need to connect a sweet or piece of candy to your Raspberry Pi to act as an input device and test it.
 
-1. Take the metal paper clips and unfold them to make straight wires.
+1. If you are using metal paper clips, unfold them to make straight wires.
 
 1. Insert the paper clip wire or dress pins into the end of a female to female jumper cable.
 
