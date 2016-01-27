@@ -1,20 +1,20 @@
 # Sweet Shop Reaction Game
 
-Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. Let's turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times seconds a player can squeeze your sweet input device in ten seconds!
+Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. Let's turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch which counts how many times seconds a player can squeeze your sweet input device in ten seconds!
 
 ## Create a sweet munching sprite
 
-The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO, and animate it to open and close its mouth.
+The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in Scratch, and animate it to open and close its mouth.
 
-1. On the desktop of your Raspberry Pi you should see a **ScratchGPIO** icon. To open it, double-click the icon. It is very important that you use this version of Scratch and not the default application.
+1. Open Scratch by clicking on Menu, Programming and Scratch. It is very important that you use this version of Scratch on Raspberry Pi to be able to control the GPIO pins.
 
-    Click **Ok** to enable remote sensor connections.
+1. Once Scratch is running choose `Start GPIO Server` from the Edit menu. 
 
-    ![](images/scratchgpio.png "ScratchGPIO icon")
+1. If asked, click **Ok** to enable remote sensor connections.
 
 1. Delete the Scratch Cat sprite by **right-clicking** on it with your mouse and selecting **delete**.
 
-1. Click on the **paint new sprite** icon above the sprites palette, and draw a face with a mouth that is closed using the paint editor. When you are happy with your sprite click **OK**.
+1. Click on the **paint new sprite** icon above the sprites palette, and draw a face with a closed mouth using the paint editor. When you are happy with your sprite click **OK**.
 
 1. Next, with your newly painted sprite selected, click on the **Costumes tab**. Rename the costume to **face1** by clicking on the sprite name followed by the edit button, and typing the new name.
 
@@ -38,7 +38,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **Ok**.
 
-1. Finally, click on the **Green Flag** in the top right hand of the screen and you sould see your sprite face open and close its mouth.
+1. Finally, click on the **Green Flag** in the top right hand of the screen and you should see your sprite face open and close its mouth.
 
 	![](images/face-script.png "Face Script")
 
@@ -74,7 +74,7 @@ You will need to create two variables for this game: one to count the button pre
 
 1. Add a `forever` looping block, connect it and then place an `if` block inside the `forever` block.
 
-1. There is a small blank space on the `if` block; this is so that you can add other blocks. In this space you need to first add the **operator** block ` = `.
+1. There is a small blank space on the `if` block; this is so that you can add other blocks. In this space, you first need to add the **operator** block ` = `.
 
 1. Blocks can be added on either side of the `=` block. On the left hand side add the sensing block `slider sensor value` and on the right hand side type the value `0`. Using the drop-down menu change **slider** to **pin3**.
 
@@ -82,7 +82,7 @@ You will need to create two variables for this game: one to count the button pre
 
 	![](images/button-script.png "Button Script")
 
-To set a time limit for the game that counts upwards, you need to add two further scripts:
+To set a time limit that counts upwards for the game, you need to add two further scripts:
 
 1. Add `when green flag clicked` block to the scripts and connect the sensing block `reset timer` to it.
 
@@ -98,7 +98,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 1. Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
 
-1. Add the operators block `=` to the space in the `wait until` block. In the left hand space add the variable block `timer` and on the right hand side type a value to represent time. If you want your game to last for ten seconds then type `10`.
+1. Add the operators block `=` to the space in the `wait until` block. In the left hand space, add the variable block `timer`. On the right hand side, type a value to represent time. If you want your game to last for ten seconds, type `10`.
 
 1. Connect a `stop all` control block to the end of this script.
 
@@ -110,15 +110,15 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 You will need to connect a sweet or piece of candy to your Raspberry Pi to act as an input device and test it.
 
-1. Take the metal paper clips and unfold them to make straight wires.
+1. If you are using metal paper clips, unfold them to make straight wires.
 
-1. Insert the paper clip wire or dress pins into the end of a female to female jumper cable.
+1. Insert the paper clip wire or dress pin into the end of a female to female jumper cable.
 
 1. Do the same to the other jumper cable so that the two cables are identical.
 
 1. Insert the paper clips into a soft sweet so that they are close to each other but not touching.
 
-    ![](images/gpio.png "Raspberry Pi GPIO header pins")
+    ![](images/raspio-ports.jpg "Raspberry Pi GPIO header pins")
 
    The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
 
