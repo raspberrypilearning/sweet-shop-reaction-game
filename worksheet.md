@@ -72,11 +72,13 @@ You will need to create two variables for this game: one to count the button pre
 
 1. Next, add the variable block `set counter to 0` so that at the start of each game the counter is reset to 0, ready to test the player's button-pushing skills.
 
+1. Configure pin 3 (GPIO2) as an input with a pull-up by sending the broadcast message "config2inpullup"
+
 1. Add a `forever` looping block, connect it and then place an `if` block inside the `forever` block.
 
 1. There is a small blank space on the `if` block; this is so that you can add other blocks. In this space, you first need to add the **operator** block ` = `.
 
-1. Blocks can be added on either side of the `=` block. On the left hand side add the sensing block `slider sensor value` and on the right hand side type the value `0`. Using the drop-down menu change **slider** to **pin3**.
+1. Blocks can be added on either side of the `=` block. On the left hand side add the sensing block `slider sensor value` and on the right hand side type the value `0`. Using the drop-down menu change **slider** to **gpio2**.
 
 1. Inside the `if` block add the variable block `change counter by 1` and `play drum 48 for 0.2 beats`. You can select any drum noise that you like from the drop down menu.
 
