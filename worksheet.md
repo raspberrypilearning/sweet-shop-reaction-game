@@ -10,7 +10,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Once Scratch is running choose `Start GPIO Server` from the **Edit** menu. 
 
-1. If asked, click **Ok** to enable remote sensor connections.
+1. If asked, click **OK** to enable remote sensor connections.
 
 1. Delete the Scratch Cat sprite by **right-clicking** on it with your mouse and selecting **delete**.
 
@@ -22,7 +22,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. The next step is to edit face2 to change the mouth from closed to open. With face2 selected, click on the **edit** button to open the paint editor.
 
-1. Erase the mouth using a paintbrush tool or an erase tool and then replace it with an open mouth. When you are happy with your sprite costume click **Ok**.
+1. Erase the mouth using a paintbrush tool or an erase tool and then replace it with an open mouth. When you are happy with your sprite costume click **OK**.
 
 1. To animate your sprite to switch between costumes, you will need to click on the **Scripts tab** of your sprite. Drag the control block `when green flag clicked` from the blocks palette to the scripts area.
 
