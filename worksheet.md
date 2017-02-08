@@ -112,7 +112,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
 1. If you are using metal paper clips, unfold them to make straight wires.
 
-1. Insert the paper clip wire or dress pin into the end of a female to female jumper cable.
+1. Insert the paper clip wire or dress pin into the end of a female-to-female jumper cable.
 
 1. Do the same to the other jumper cable so that the two cables are identical.
 
