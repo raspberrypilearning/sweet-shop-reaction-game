@@ -6,7 +6,7 @@ Some penny sweets or candy can make great input devices for a game using a Raspb
 
 The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in Scratch, and animate it to open and close its mouth.
 
-1. Open Scratch by clicking on **Menu**>**Programming**>**Scratch**. It is very important that you use this version of Scratch on Raspberry Pi to be able to control the GPIO pins.
+1. Open Scratch by clicking on **Menu** > **Programming** > **Scratch**. It is very important that you use this version of Scratch on Raspberry Pi to be able to control the GPIO pins.
 
 1. Once Scratch is running choose `Start GPIO Server` from the **Edit** menu. 
 
@@ -36,7 +36,7 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 1. Change the time from one second to half a second. How could you represent time as a value? If one is a whole, what would half of one be?
 
-1. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **Ok**.
+1. Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **OK**.
 
 1. Finally, click on the **Green Flag** in the top right hand of the screen and you should see your sprite face open and close its mouth.
 
