@@ -6,9 +6,9 @@ Some penny sweets or candy can make great input devices for a game using a Raspb
 
 The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in Scratch, and animate it to open and close its mouth.
 
-1. Open Scratch by clicking on Menu, Programming and Scratch. It is very important that you use this version of Scratch on Raspberry Pi to be able to control the GPIO pins.
+1. Open Scratch by clicking on **Menu**>**Programming**>**Scratch**. It is very important that you use this version of Scratch on Raspberry Pi to be able to control the GPIO pins.
 
-1. Once Scratch is running choose `Start GPIO Server` from the Edit menu. 
+1. Once Scratch is running choose `Start GPIO Server` from the **Edit** menu. 
 
 1. If asked, click **Ok** to enable remote sensor connections.
 
