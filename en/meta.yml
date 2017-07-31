@@ -1,0 +1,25 @@
+---
+title: Sweet Shop Reaction Game
+hero_image: images/banner.png
+description: Turn a squidgy sweet into an input button for your Raspberry Pi
+original_url: https://raspberrypi.org/learning/sweet-shop-reaction-game
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: rpi, physical computing, python
+site_areas: ''
+steps:
+- title: Introduction
+- title: What you will need
+- title: Sweet Shop Reaction Game
+- title: Create a sweet-munching sprite
+- title: Design a sweet shop background
+- title: Program the sweet shop reaction game mechanics
+- title: Wire up your sweet button
+- title: Put it all in a box
+- title: What next?
+
