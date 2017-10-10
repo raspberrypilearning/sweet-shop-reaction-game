@@ -2,23 +2,53 @@
 
 The object of the game is to see how many times you can squeeze the sweet button in ten seconds.
 
-You will need to create two variables for this game: one to count the button presses, and one to count time.
++ Create a variable called `counter`{:class="blockdata"}. We will use this to count how many times the button is pressed
 
-- Click on **variables** from the blocks palette and select `make a variable`. Name the first variable **counter** and click **ok**.
+[[[generic-scratch-add-variable]]]
+
++ Add some code so that when the flag is clicked the program will reset the counter to 0 to make sure that the player begins on 0 button presses.
+
+```blocks
+when flag clicked
+set [counter v] to [0]
+```
++ Attach some more code which will add 1 to counter whenever GPIO 17 is not high. Use the code you wrote to test your button to help you.
+
+--- hints ---
+--- hint ---
+Constantly (`forever`{:class="blockcontrol"} ) check `if`{:class="blockcontrol"} GPIO 17 is `not`{:class="blockoperators"} high.
+
+If it is not high, `change counter by 1`{:class="blockdata"}.
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+
+![Hint for blocks to add one to counter](images/hint-add-one.png)
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+
+```blocks
+when flag clicked
+set [counter v] to [0]
+forever
+    if <not <gpio (17) is high>> then
+        change [counter v] by (1)
+    end
+end
+```
+--- /hint ---
+
+--- /hints ---
+
+
+
+
+You will need to create two variables for this game: one to count the button presses, and one to count time.
 
 - Repeat the first step to create another variable named **timer**.
 
-- Click on the control blocks palette and drag the `When green flag clicked` block on to the scripts tab of your face sprite.
 
-- Next, add the variable block `set counter to 0` so that at the start of each game the counter is reset to 0, ready to test the player's button-pushing skills.
-
-- Configure pin 3 (GPIO2) as an input with a pull-up by sending the broadcast message "config2inpullup"
-
-- Add a `forever` looping block, connect it and then place an `if` block inside the `forever` block.
-
-- There is a small blank space on the `if` block; this is so that you can add other blocks. In this space, you first need to add the **operator** block ` = `.
-
-- Blocks can be added on either side of the `=` block. On the left hand side add the sensing block `slider sensor value` and on the right hand side type the value `0`. Using the drop-down menu change **slider** to **gpio2**.
 
 - Inside the `if` block add the variable block `change counter by 1` and `play drum 48 for 0.2 beats`. You can select any drum noise that you like from the drop down menu.
 
