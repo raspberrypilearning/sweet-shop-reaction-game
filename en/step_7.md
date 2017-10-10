@@ -2,7 +2,7 @@
 
 Finally, let's add a timer so that the player only has 10 seconds to press the sweet button as many times as they can.
 
-Scratch has a built in timer we can use, in the `sensing`{:class="blocksensing"} block section.
+Scratch has a built in timer you can use, in the `sensing`{:class="blocksensing"} block section.
 
 + Add some code to `reset timer`{:class="blocksensing"} when the green flag is clicked.
 
@@ -11,7 +11,7 @@ when flag clicked
 reset timer
 ```
 
-+ Now use the same block you used to prevent the cheating in the previous step - `wait until`{:class="blockcontrol"}. This time, write some code to wait until the timer is greater than 10, and then stop all scripts.
++ Now use the same block you used to prevent the cheating in the previous step - `wait until`{:class="blockcontrol"}. This time, add some blocks after you reset the timer to wait until the timer is greater than 10, and then stop all scripts.
 
 --- hints ---
 --- hint ---
