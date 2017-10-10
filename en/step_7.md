@@ -1,4 +1,5 @@
-## Put it all in a box
-
-Congratulations on making your Sweet Shop Reaction Game! If you have time, why not make and decorate a box to put the Raspberry Pi and cables into?
+## What next?
+- Can you add user input to your scratch program to find out the name of the player?
+- Can you connect a real physical button instead of a sweet?
+- Can you write a similar program using a text-based programing language like Python?
 

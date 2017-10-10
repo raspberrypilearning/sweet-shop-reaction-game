@@ -24,3 +24,4 @@ sudo apt-get install scratch2
 
 ### Additional resources
 + Soft foam sweets
++ 2x metal paper clips (uncoated)
