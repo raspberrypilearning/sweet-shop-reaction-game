@@ -1,29 +1,37 @@
 ## Add a timer
 
-You will need to create two variables for this game: one to count the button presses, and one to count time.
+Finally, let's add a timer so that the player only has 10 seconds to press the sweet button as many times as they can.
 
-- Repeat the first step to create another variable named **timer**.
+Scratch has a built in timer we can use, in the `sensing`{:class="blocksensing"} block section.
 
-To set a time limit that counts upwards for the game, you need to add two further scripts:
++ Add some code to `reset timer`{:class="blocksensing"} when the green flag is clicked.
 
-- Add `when green flag clicked` block to the scripts and connect the sensing block `reset timer` to it.
+```blocks
+when flag clicked
+reset timer
+```
 
-- Underneath, connect a `forever` looping control block.
++ Now use the same block you used to prevent the cheating in the previous step - `wait until`{:class="blockcontrol"}. This time, write some code to wait until the timer is greater than 10, and then stop all scripts.
 
-- Inside the loop add the variable block `set control to 0` and using the drop-down menu on the block, change **control** to **timer** so that the block reads `set timer to 0`.
+--- hints ---
+--- hint ---
+Your code should `wait until`{:class="blockcontrol"} the `timer`{:class="blocksensing"} is `greater than (>)`{:class="blockoperators"} 10 and then `stop all`{:class="blockcontrol"} scripts.
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+![Hint to stop script](images/hint-stop-script.png)
+--- /hint ---
+--- hint ---
+Here is how your finished code should look:
+```blocks
+when flag clicked
+reset timer
+wait until <(timer) > [10]>
+stop [all v]
+```
+--- /hint ---
+--- /hints ---
 
-- Replace the value `0` in the `set timer to 0` block with the operator block `round`.
++ Click on the green flag and test your code. You should be able to press the sweet button and see the counter increasing for each press. Once the timer reaches 10, any button presses will no longer add one to counter.
 
-- Then add the sensing block `timer` inside the space on the `round' block. The completed block should look like:
-
-	![](images/timer-script.png "Timer Script")
-
-- Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
-
-- Add the operators block `=` to the space in the `wait until` block. In the left hand space, add the variable block `timer`. On the right hand side, type a value to represent time. If you want your game to last for ten seconds, type `10`.
-
-- Connect a `stop all` control block to the end of this script.
-
-- Finally, save your game by clicking on the save icon at the top of the screen.
-
-	![](images/timer-script2.png "Set Timer Script")
+Note that the timer will continue to run on past 10 seconds, but all of your other scripts will stop.
