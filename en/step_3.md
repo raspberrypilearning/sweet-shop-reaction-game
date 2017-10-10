@@ -24,20 +24,36 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 ![Open mouth face](images/open-face.png)
 
-- Click on the **Scripts tab**. Drag the control block `when green flag clicked` from the blocks palette to the scripts area.
+Let's program the sprite so that it looks like it is eating sweets!
 
-- Next, drag the look block `switch to costume face1` and connect it to the control block.
+- Click on the **Scripts tab**. Add blocks to tell the sprite to display the next costume when the flag is clicked.
 
-- Then add the control block `forever` underneath the look block.
+```blocks
+when flag clicked
+next costume
+```
 
-   The `forever` block is a loop that will run the same sequence of blocks inside it over and over again.
++ Click on the green flag a few times and watch what happens to your sprite. Do you see the face swap between the two costumes?
 
-- Add the control block `wait 1 secs` and the look block `next costume` inside the forever loop.
++ Let's make the faces swap automatically rather than only when we click on the flag. Add a `forever`{:class="blockcontrol"} block around the `next costume`{:class="blocklooks"} block. This will make the costume keep switching all the time.
 
-- Change the time from one second to half a second. How could you represent time as a value? If one is a whole, what would half of one be?
+```blocks
+when flag clicked
+forever
+    next costume
+end
+```
 
-- Time to save your work so far and test that your script to animate a sprite works. Go to **File** and **Save As**. Name your file **SweetShopGame** and click **OK**.
++ Test your code by clicking on the green flag and look at your sprite. It looks like it's gobbling sweets really quickly! Let's add a `wait 1 secs`{:class="blockcontrol"} block to slow it down a little bit.
 
-- Finally, click on the **Green Flag** in the top right hand of the screen and you should see your sprite face open and close its mouth.
+```blocks
+when flag clicked
+forever
+    next costume
+    wait (1) secs
+end
+```
 
-	![](images/face-script.png "Face Script")
+- You can change the time from one second to half a second (0.5) or however long you like to make your sprite gobble more quickly or slowly.  
+
+- Dont' forget to save your project so far by clicking on **File** > **Save project**.
