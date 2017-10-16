@@ -4,7 +4,7 @@ You are going to use your sweet as a button! When someone squeezes the sweet, th
 
 + Click on the face sprite in your Scratch project.
 
-+ Add some new code to constantly (`forever`{:class="blockcontrol"} ) check if `GPIO 17 is high`{:class="blockmoreblocks"}. Most of the time this pin will be **high**, except for when you press your sweet button.
++ Add some new code to constantly (`forever`{:class="blockcontrol"} ) check if `GPIO 17 is high`{:class="blockmoreblocks"}. Most of the time this pin will be **high**, except for when you press your sweet button when it is `not`{:class="blockoperators"} high.
 
 ```blocks
 when flag clicked
