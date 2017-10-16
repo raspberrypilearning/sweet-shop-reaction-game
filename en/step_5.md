@@ -9,7 +9,7 @@ You are going to use your sweet as a button! When someone squeezes the sweet, th
 ```blocks
 when flag clicked
 forever
-    if <not <gpio (17) is high> :: extension> then
+    if <not <gpio (17) is high :: extension>> then
         say [Yum!] for (1) secs
     end
 end
