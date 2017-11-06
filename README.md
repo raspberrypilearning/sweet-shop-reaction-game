@@ -1,5 +1,7 @@
 # Sweet Shop Reaction Game
 
+**This is an archived resource.** The repo will remain available but the resource will no longer be maintained or updated. Some or all parts of the resource may no longer work. To see our latest resources, please visit [raspberrypi.org](http://www.raspberrypi.org). 
+
 Some penny sweets or candy can make great input devices for a game using a Raspberry Pi. You will learn how to turn a squidgy sweet into an input button for your Raspberry Pi. You will then create a reaction game in Scratch that counts how many times a player can squeeze your sweet input device in ten seconds!
 
 ![](cover.png)
