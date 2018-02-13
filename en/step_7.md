@@ -1,24 +1,37 @@
-## Wire up your sweet button
+## Add a timer
 
-You will need to connect a sweet or piece of candy to your Raspberry Pi to act as an input device and test it.
+Finally, let's add a timer so that the player only has 10 seconds to press the sweet button as many times as they can.
 
-- If you are using metal paper clips, unfold them to make straight wires.
+Scratch has a built in timer you can use, in the `sensing`{:class="blocksensing"} block section.
 
-- Insert the paper clip wire or dress pin into the end of a female-to-female jumper cable.
++ Add some code to `reset timer`{:class="blocksensing"} when the green flag is clicked.
 
-- Do the same to the other jumper cable so that the two cables are identical.
+```blocks
+when flag clicked
+reset timer
+```
 
-- Insert the paper clips into a soft sweet so that they are close to each other but not touching.
++ Now use the same block you used to prevent the cheating in the previous step - `wait until`{:class="blockcontrol"}. This time, add some blocks after you reset the timer to wait until the timer is greater than 10, and then stop all scripts.
 
-    ![](images/raspio-ports.jpg "Raspberry Pi GPIO header pins")
+--- hints ---
+--- hint ---
+Your code should `wait until`{:class="blockcontrol"} the `timer`{:class="blocksensing"} is `greater than (>)`{:class="blockoperators"} 10 and then `stop all`{:class="blockcontrol"} scripts.
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+![Hint to stop script](images/hint-stop-script.png)
+--- /hint ---
+--- hint ---
+Here is how your finished code should look:
+```blocks
+when flag clicked
+reset timer
+wait until <(timer) > [10]>
+stop [all v]
+```
+--- /hint ---
+--- /hints ---
 
-   The diagram above the pins shows the pin numbers. You will be using pin 3 and a `GND` pin.
++ Click on the green flag and test your code. You should be able to press the sweet button and see the counter increasing for each press. Once the timer reaches 10, any button presses will no longer add one to counter.
 
-- Take the other end of one of the jumper cables (not connected to a paper clip) and push onto pin 3 of the General Purpose Input-Output (GPIO) header, which is connected to one of the GPIO channels.
-
-- Take the end of the other jumper cable and push onto a pin labelled 'GND' which is connected to ground.
-
-    **Warning!** You can damage your Raspberry Pi if you do not use the GPIO pins correctly!
-
-Remember that your sweet input device is not a real button and will not give accurate results for your game. It is just a bit of fun. 
-
+Note that the timer will continue to run on past 10 seconds, but all of your other scripts will stop.

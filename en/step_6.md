@@ -1,50 +1,54 @@
-## Program the sweet shop reaction game mechanics
+## Count the squishes
 
-Many people enjoy testing their reaction time against a clock. Let's create a reaction game using ScratchGPIO that we can connect to a squidgy sweet button later on. The object of the game is to see how many times you can squeeze the sweet button in ten seconds.
+The object of the game is to see how many times you can squeeze the sweet button in ten seconds.
 
-You will need to create two variables for this game: one to count the button presses, and one to count time.
++ Create a variable called `counter`{:class="blockdata"}. We will use this to count how many times the button is pressed
 
-- Click on **variables** from the blocks palette and select `make a variable`. Name the first variable **counter** and click **ok**.
+[[[generic-scratch-add-variable]]]
 
-- Repeat the first step to create another variable named **timer**.
++ Add some code so that when the flag is clicked the program will reset the counter to 0 to make sure that the player begins on 0 button presses.
 
-- Click on the control blocks palette and drag the `When green flag clicked` block on to the scripts tab of your face sprite.
+```blocks
+when flag clicked
+set [counter v] to [0]
+```
++ Attach some more code underneath to add 1 to counter whenever GPIO 17 is not high. Use the code you wrote to test your button to help you.
 
-- Next, add the variable block `set counter to 0` so that at the start of each game the counter is reset to 0, ready to test the player's button-pushing skills.
+--- hints ---
+--- hint ---
+Constantly (`forever`{:class="blockcontrol"} ) check `if`{:class="blockcontrol"} GPIO 17 is `not`{:class="blockoperators"} high.
 
-- Configure pin 3 (GPIO2) as an input with a pull-up by sending the broadcast message "config2inpullup"
+If it is not high, `change counter by 1`{:class="blockdata"}.
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
 
-- Add a `forever` looping block, connect it and then place an `if` block inside the `forever` block.
+![Hint for blocks to add one to counter](images/hint-add-one.png)
+--- /hint ---
+--- hint ---
+Here is the code you will need:
 
-- There is a small blank space on the `if` block; this is so that you can add other blocks. In this space, you first need to add the **operator** block ` = `.
+```blocks
+when flag clicked
+set [counter v] to [0]
+forever
+    if <not <gpio (17) is high>> then
+        change [counter v] by (1)
+    end
+end
+```
+--- /hint ---
 
-- Blocks can be added on either side of the `=` block. On the left hand side add the sensing block `slider sensor value` and on the right hand side type the value `0`. Using the drop-down menu change **slider** to **gpio2**.
+--- /hints ---
 
-- Inside the `if` block add the variable block `change counter by 1` and `play drum 48 for 0.2 beats`. You can select any drum noise that you like from the drop down menu.
++ Test your code by clicking the green flag and then squishing the sweet button. You will probably see that the counter goes up by more than 1 each time you squish the sweet, and you can cheat and get lots of points by just holding the sweet squished.
 
-	![](images/button-script.png "Button Script")
+Let's stop the cheaters in their tracks! We will force the player to release the sweet by waiting until GPIO 17 is high again before allowing any more points to be scored.
 
-To set a time limit that counts upwards for the game, you need to add two further scripts:
++ Add this code after the block which adds one to counter:
 
-- Add `when green flag clicked` block to the scripts and connect the sensing block `reset timer` to it.
+```blocks
+wait until <gpio (17) is high>
+```
 
-- Underneath, connect a `forever` looping control block.
-
-- Inside the loop add the variable block `set control to 0` and using the drop-down menu on the block, change **control** to **timer** so that the block reads `set timer to 0`.
-
-- Replace the value `0` in the `set timer to 0` block with the operator block `round`.
-
-- Then add the sensing block `timer` inside the space on the `round' block. The completed block should look like:
-
-	![](images/timer-script.png "Timer Script")
-
-- Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
-
-- Add the operators block `=` to the space in the `wait until` block. In the left hand space, add the variable block `timer`. On the right hand side, type a value to represent time. If you want your game to last for ten seconds, type `10`.
-
-- Connect a `stop all` control block to the end of this script.
-
-- Finally, save your game by clicking on the save icon at the top of the screen.
-
-	![](images/timer-script2.png "Set Timer Script")
-
++ Test your game again and try to cheat by keeping the sweet permanently squished. You should find that this no longer gives you any points!

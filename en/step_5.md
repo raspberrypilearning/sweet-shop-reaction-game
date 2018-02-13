@@ -1,16 +1,31 @@
-## Design a sweet shop background
+## Test the button
 
-To make the game a little more interesting, let's set the scene by changing the background from the default white to something a little more exciting, like a gradient colour or sweets in a shop!
+You are going to use your sweet as a button! When someone squeezes the sweet, the wires inside will touch together to close the circuit, and you will be able to detect this in your program.
 
-- Click on the **stage** icon next to the sprites palette to change the background.
++ Click on the face sprite in your Scratch project.
 
-- Next, locate the **backgrounds** tab and select it with your mouse.
++ Add some new code to constantly (`forever`{:class="blockcontrol"} ) check if `GPIO 17 is high`{:class="blockextension"}. Most of the time this pin will be **high**, except for when you press your sweet button when it is `not`{:class="blockoperators"} high.
 
-- If you want to draw your own background, click on the **edit** button underneath the **background1** label: this will open the paint editor. Use the drawing tools to make a more interesting and colourful background.
+```blocks
+when flag clicked
+forever
+    if <not <gpio (17) is high :: extension>> then
+        say [Yum!] for (1) secs
+    end
+end
+```
 
-	**Or**
+When you press the sweet button, the pin will report that it is **not** high, so the message "Yum!" only displays when the button is pressed.
 
- 	If you would rather add a new background using an image, delete background1 by clicking on the **x** underneath the background1 label. Then click on the **import** button to use a background from the image library, or from a picture that you have saved.
++ Click the green flag and test your program by squeezing the sweet button. If you don't see the message "Yum!" when you press the button, try adjusting the positions of the wires in the sweet so that they are closer together.
 
-- When you are happy with your background, click on **sprite1** in the sprites palette, ready to program the reaction game mechanics in the next step.
+--- collapse ---
+---
+title: I can't get my sweet button to work
+---
+If you're having trouble, you can take the paperclip wires out of your sweet and test your code by touching the wires together. If you see "Yum!" when you touch the wires together, your program is working and you need to adjust the position of the wires within the sweet.
 
+Sometimes the wires can get a bit gummed up with goo from the sweet, meaning you don't get a good connection. Try wiping off the wires before testing. Once you're happy that your program works, try to insert the wires back into the sweet so that they are close together but not touching until you squeeze the sweet. It's a bit tricky to get this right but it is possible!
+--- /collapse ---
+
++ Once you know your button is working, you can move on to the next step to make a reaction game
